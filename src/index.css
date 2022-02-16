@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Poppins:ital,wght@0,300;1,200&family=Roboto+Condensed&display=swap');
+
+body {
+  margin: 0;
+  background-color: #DDE8F2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

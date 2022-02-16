@@ -1,0 +1,77 @@
+#model5 .member
+{
+    cursor: pointer;
+    transition: all 1s;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    overflow: visible;
+}
+
+#model5 img
+{
+    border-radius: 15px;
+}
+
+#model5 .description
+{
+    width: 400px;
+    height: 425px;
+    background-color: rgba(8,61,119);
+    transform: translateY(-100%) rotateY(180deg);
+    border-radius: 15px;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+#model5 .description
+{
+    backface-visibility: hidden !important;
+}
+
+#model5 .member:hover
+{
+    transform :rotateY(180deg);
+}
+
+#model5 .description h1
+{
+    color: #fff;
+}
+
+
+#model5 .description h2
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #F21B3F;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#model5 .description p
+{
+    color: #fff;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+#model5 .description .social-media svg
+{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#model5 .description .social-media svg:hover
+{
+    transform: scale(1.1);
+    color: #F21B3F;
+}
