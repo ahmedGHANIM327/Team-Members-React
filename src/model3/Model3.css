@@ -99,7 +99,7 @@
 #model3 .member:hover
 {
     background-color: rgba(8,61,119,0.2);
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 #model3 .member:hover img

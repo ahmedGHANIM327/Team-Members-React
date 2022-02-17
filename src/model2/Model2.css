@@ -52,7 +52,7 @@
 {
     border-radius: 15px;
     background-color: rgba(8,61,119 , 0.15);
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 #model2 .description .social-media svg:hover

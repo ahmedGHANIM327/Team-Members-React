@@ -30,3 +30,8 @@
     height: 400px;
     overflow: hidden;
 }
+
+.member:hover
+{
+    transform: scale(1.01);
+}
